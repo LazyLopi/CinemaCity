@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import './Header.css';
+import head from './Header';
+import sizer from './4f.png';
+import imax from './imax.png';
+import screenx from './screenx.png';
+import logo from './logo.png';
+import Gora from './gora.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Gora />
     </div>
   );
-}
+};
 
 export default App;
