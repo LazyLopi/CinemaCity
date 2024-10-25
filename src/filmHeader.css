@@ -1,0 +1,44 @@
+.filmHeader{
+    width: 100%;
+    box-shadow: 0px 10px 10px #eaeaea;
+}
+
+#filmHeaderInside{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.filmHeader h1{
+    font-size: 30px;
+}
+
+.dayButton{
+    margin-right: 10px;
+    background-color: white;
+    width: fit-content;
+    border: none;
+    cursor:pointer;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.dayButton:hover{
+    color: #ee8f00;
+}
+
+.filmHeader hr{
+    border:1px solid #e0e0e0;
+}
+
+.filmHeader input, .filmHeader select{
+    margin-left: 10px;
+}
+
+.filmHeader select{
+    padding: 5px 20px;
+}
+.filmHeader input[type="date"]:-webkit-datetime-edit{
+    display:none;
+}
+
+

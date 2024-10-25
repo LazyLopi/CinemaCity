@@ -1,0 +1,83 @@
+.filmCell{
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filmCellInfo p,.filmCellInfo h2,.filmCellInfo h3{
+    margin: 0;
+}
+
+.filmCellImg{
+    width: 20%;
+    float:left;
+    margin-bottom: 25px;
+}
+
+.filmCell img{
+    width: 150px;
+    border-radius: 10%;
+}
+
+.filmCellInfo{
+    width: 70%;
+    float:left;
+    margin-left: 0;
+}
+
+.filmCTimeCell{
+    background-color: #ee8f00;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 15%;
+    float: left;
+    margin-left: 5px;
+    transition: 0.3s;
+    user-select: none;
+    font-weight: bold;
+}
+
+.filmCTimeCell:hover{
+    background-color: #ad6d0c;
+}
+
+.filmCell hr{
+    width: 100%;
+    border:1px solid #e0e0e0;
+}
+
+.filmCellInfo h2{
+    margin-bottom: 10px;
+    transition: 0.3;
+}
+
+.filmCellInfo h2:hover{
+    color:#ee8f00;
+}
+
+.filmCell p{
+    margin-bottom: 20px;
+}
+
+#filmCellGenre{
+    margin-left: 25px;
+}
+
+.filmCellInfo h3{
+    margin-bottom: 15px;
+}
+
+.filmCellInfo img{
+    width: 20px;
+    z-index: -1;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.pLang{
+    clear: both;
+    letter-spacing: -1.5px;
+    padding-top: 5px;
+    margin: 0;
+}

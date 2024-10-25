@@ -1,4 +1,5 @@
 import './App.css';
+import FilmList from "./filmList.jsx";
 import './Header.css';
 import head from './Header';
 import sizer from './4f.png';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
           <Gora />
+      <FilmList />
     </div>
   );
 };
