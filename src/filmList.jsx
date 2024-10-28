@@ -15,7 +15,7 @@ const films = [{title: "UŚMIECHNIJ SIĘ 2",img: usmiech2,genre: "Horror",length
 function FilmList(){
     return(
         <div>
-            <FilmListHeader />
+            <FilmListHeader/>
             <div style={{width:"100%"}}>
                 {films.map( (f) => {
                     return(<FilmCell key={f.title} filmInfo={f}/>);

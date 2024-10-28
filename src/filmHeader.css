@@ -4,7 +4,7 @@
 }
 
 #filmHeaderInside{
-    width: fit-content;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -35,10 +35,44 @@
 }
 
 .filmHeader select{
-    padding: 5px 20px;
-}
-.filmHeader input[type="date"]:-webkit-datetime-edit{
-    display:none;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    font-size: 15px;
 }
 
+.filmHeader select:hover{
+    border: 1px solid gray;
+    transition: 0.3s;
+    cursor: pointer;
+}
 
+.calenderBtn img{
+    width:25px;
+    padding: 3px 0;
+}
+
+.calenderBtn{
+    background-color: white;
+    border: 1px solid lightgray;
+    transition: 0.3s;
+}
+
+.calenderBtn:hover{
+    border: 1px solid gray;
+    cursor:pointer;
+}
+
+.selected{
+    color:#ee8f00;
+    font-weight: bold;
+}
+
+.filmHeaderMenu{
+    display: flex;
+}
+
+.firstInLine{
+    margin-left: 0;
+    padding-left: 0;
+}
