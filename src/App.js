@@ -1,14 +1,13 @@
+import React from 'react';
+import Slider from './Slider';
 import './App.css';
-import FilmList from "./filmList.jsx";
-import Gora from "./gora.jsx";
-
-function App() {
-  return (
-    <div className="App">
-      <Gora />
-      <FilmList />
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <h1>Lublin Plaza</h1>
+            <Slider />
+        </div>
+    );
+};
 
 export default App;
